@@ -1,0 +1,83 @@
+/*font-family: 'El Messiri';
+font-family: "ProximaNovaLight";
+font-family: "ProximaNovaBold";
+font-family: "ProximaNovaRegular";
+font-family: "ProximaNovaSemibold";
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.responsive_menu {
+  display: none;
+}
+
+.sidenav {
+  display: none;
+}
+
+.introduction .header {
+  background: #52503b;
+}
+
+.introduction .nav-menu {
+  padding: 16px 0px;
+  margin: 0 auto;
+}
+
+.introduction .nav-menu .nav-content-link {
+  margin-right: 24px;
+  color: #ffffff;
+}
+
+.introduction .nav-menu .nav-content-link:hover {
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+.introduction .nav-menu .last {
+  margin-right: 0px;
+}
+
+.owl-nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: end;
+}
+
+.owl-carousel .next-slide {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #52503b;
+  border-radius: 30px;
+}
+.owl-carousel .prev-slide {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #52503b;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.owl-next:focus,
+.owl-prev:focus {
+  outline: none;
+}
